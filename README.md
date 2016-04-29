@@ -22,6 +22,7 @@ System.out.println("Mailing to check to "+name+" "+address);
 #############################<br/>
 Serialize序列化<br/>
 #############################<br/>
+<pre>
 import java.io.*;
 
 public class SerializeDemo
@@ -49,9 +50,11 @@ public class SerializeDemo
       }
    }
 }
+</pre>
 ##############################<br/>
 Deserialize反序列化
 ##############################<br/>
+<pre>
 import java.io.*;
 public class DeserializeDemo
 {
@@ -82,3 +85,4 @@ public class DeserializeDemo
       System.out.println("Number: " + e.number);
     }
 }
+</pre>
